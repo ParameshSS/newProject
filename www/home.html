@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title></title>
+    <link rel="stylesheet" href="../dist-swiper/css/swiper.min.css">
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style3.css">
+<style>
+
+
+</style>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+      <!--/.layout-->
+
+        <!--footer-->
+        <nav class="navbar navbar-expand-lg  fixed-bottom ">
+           <span>
+            <input class="icon" type="image" src="../images/fav.png" alt="Submit"  onclick="myFunction()">
+        </span>
+          <span>
+           <input class="icon" type="image" src="../images/accessories.png" alt="Submit"  onclick="myFunction()">
+         </span>
+          <span>
+            <input class="icon" type="image" src="../images/home.png" alt="Submit"  onclick="myFunction()">
+        </span>
+
+        </nav>
+        <!--/.footer-->
+
+        <!--/.header-->
+        <nav class="navbar navbar-expand-lg  static-top">
+                <span id="sidebarCollapse" >
+                    <span style="color:#26b6ea">&#9776;</span>
+                    &nbsp;&nbsp;<img src="images/fueb-new-logo.png" width="40px">
+                </span>
+                <nav id="sidebar">
+                    <div id="dismiss">
+                        <span>&#xd7;</span>
+                    </div>
+
+                    <div class="sidebar-header">
+                        <img src="images/fueb-new-logo.png" width="40px">
+                    </div>
+
+                    <div class="sidebar-header profile">
+                      <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar" class="avatar">
+                      <span>Swapna Patil</span>
+                    </div>
+
+                    <ul class="list-unstyled components">
+                      <li><a href="#">
+                                <input style="background: transparent;outline: none" type="image" src="images/account.png"  width="8" height="15">
+                                &nbsp;&nbsp;Account
+                                <input style="float:right;background: transparent;outline: none"  type="image" src="../images/arrow_menu.png"  width="19" height="19">
+                              </a></li>
+                              <li><a href="#"><input style="background: transparent;outline: none;background: transparent;outline: none"  type="image" src="../images/invite.png"  width="`15`" height="15">
+                              Invite<input style="float:right;background: transparent;outline: none"  type="image" src="../images/arrow_menu.png"  width="19" height="19">
+                              </a></li>
+
+                              <li><a href="#">
+                                <input style="background: transparent;outline: none" type="image" src="../images/help.png"  width="15" height="15">
+                                Help<input style="float:right;background: transparent;outline: none"  type="image" src="../images/arrow_menu.png"  width="19" height="19">
+                              </a></li>
+                              <li><a href="#">
+                                <input style="background: transparent;outline: none"  type="image" src="../images/about.png"  width="15" height="15">
+                                About<input style="float:right;background: transparent;outline: none"  type="image" src="../images/arrow_menu.png"  width="19" height="19">
+                              </a></li>
+                              <li><a href="#">
+                                <input style="background: transparent;outline: none"  type="image" src="../images/create_account.png"  width="15" height="15">
+                                Create Account<input style="float:right;background: transparent;outline: none"  type="image" src="../images/arrow_menu.png"  width="19" height="19">
+                              </a></li>
+                              <li><a href="#">
+                                <input style="background: transparent;outline: none"  type="image" src="../images/setup_device.png"  width="15" height="15">
+                                Setup Device<input style="float:right;background: transparent;outline: none"  type="image" src="../images/arrow_menu.png"  width="19" height="19">
+                              </a></li>
+                              <li><a href="#">
+                                <input style="background: transparent;outline: none"  type="image" src="../images/logout.png"  width="15" height="15">
+                                Log Out<input style="float:right;background: transparent;outline: none"  type="image" src="../images/arrow_menu.png"  width="19" height="19">
+                              </a></li>
+                    </ul>
+                </nav>
+
+        </nav><!--/.header-->
+        <!-- /.layout  -->
+
+
+        <div class="container">
+          <br><br>
+
+            <section class="mode-content" >
+              <!-- Swiper -->
+            <div class="swiper-container ">
+              <div class="swiper-wrapper">
+              <br><br>
+                <div class="swiper-slide ">
+                  <center>
+                  <div class="row">
+                    <span class="heading-mode" >Mode</span>
+                    <div class="col-xs-2 col-md-2">
+                      <button class="btn btt-icon"><img src="../images/icon-room1.png" width="70" height="50" /><br>Bedroom1</button>
+                      <button class="btn btt-icon "><img src="../images/icon-room2.png" width="70" height="50" /><br>Bedroom2</button>
+                      <button class="btn btt-icon "><img src="../images/icon-room3.png" width="70" height="50" /><br>Living Room</button>
+                    </div>
+                    <div class="col-xs-2 col-md-2">
+                      <button class="btn btt-icon"><img src="../images/icon-room1.png" width="70" height="50" /><br>Bedroom1</button>
+                      <button class="btn btt-icon "><img src="../images/icon-room2.png" width="70" height="50" /><br>Bedroom2</button>
+                      <button class="btn btt-icon "><img src="../images/icon-room3.png" width="70" height="50" /><br>Living Room</button>
+                    </div>
+
+                  </div>  </center>
+                </div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+              </div>
+
+            </div>
+
+            </section>
+
+
+              <span class="heading">Home</span>
+              <span style="">
+                <input  class="icon-home"   type="image" src="../images/add.png" alt="Submit"  onclick="document.getElementById('id01').style.display='block'">
+            </span>
+
+            <section class="home-content">
+              <div class="home-container" >
+                <div>
+              <center>
+              <div class="row">
+                <div class="col-xs-2 col-md-2">
+                  <button class="btn btt-icon"><img src="../images/icon-room1.png" width="70" height="50" /><br>Bedroom1</button>
+                  <button class="btn btt-icon "><img src="../images/icon-room2.png" width="70" height="50" /><br>Bedroom2</button>
+                  <button class="btn btt-icon "><img src="../images/icon-room3.png" width="70" height="50" /><br>Living Room</button>
+                </div>
+                <div class="col-xs-2 col-md-2">
+                  <button class="btn btt-icon"><img src="../images/icon-room1.png" width="70" height="50" /><br>Bedroom1</button>
+                  <button class="btn btt-icon "><img src="../images/icon-room2.png" width="70" height="50" /><br>Bedroom2</button>
+                  <button class="btn btt-icon "><img src="../images/icon-room3.png" width="70" height="50" /><br>Living Room</button>
+                </div>
+                <div class="col-xs-2 col-md-2">
+                  <button class="btn btt-icon"><img src="../images/icon-room1.png" width="70" height="50" /><br>Bedroom1</button>
+                  <button class="btn btt-icon "><img src="../images/icon-room2.png" width="70" height="50" /><br>Bedroom2</button>
+                  <button class="btn btt-icon "><img src="../images/icon-room3.png" width="70" height="50" /><br>Living Room</button>
+                </div>
+                <div class="col-xs-2 col-md-2">
+                  <button class="btn btt-icon"><img src="../images/icon-room1.png" width="70" height="50" /><br>Bedroom1</button>
+                  <button class="btn btt-icon "><img src="../images/icon-room2.png" width="70" height="50" /><br>Bedroom2</button>
+                  <button class="btn btt-icon "><img src="../images/icon-room3.png" width="70" height="50" /><br>Living Room</button>
+                </div>
+                <div class="col-xs-2 col-md-2">
+                  <button class="btn btt-icon"><img src="../images/icon-room1.png" width="70" height="50" /><br>Bedroom1</button>
+                  <button class="btn btt-icon "><img src="../images/icon-room2.png" width="70" height="50" /><br>Bedroom2</button>
+                  <button class="btn btt-icon "><img src="../images/icon-room3.png" width="70" height="50" /><br>Living Room</button>
+                </div>
+                <div class="col-xs-2 col-md-2">
+                  <button class="btn btt-icon"><img src="../images/icon-room1.png" width="70" height="50" /><br>Bedroom1</button>
+                  <button class="btn btt-icon "><img src="../images/icon-room2.png" width="70" height="50" /><br>Bedroom2</button>
+                  <button class="btn btt-icon "><img src="../images/icon-room3.png" width="70" height="50" /><br>Living Room</button>
+                </div>
+              </div></center>
+
+              </div>
+              </div>
+
+            </section>
+
+        </div>
+    </div>
+
+    <div class="overlay"></div>
+
+    <!-- Swiper JS -->
+  <script src="../dist-swiper/js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+      <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#dismiss, .overlay').on('click', function () {
+                $('#sidebar').removeClass('active');
+                $('.overlay').removeClass('active');
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').addClass('active');
+                $('.overlay').addClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
+
+</body>
+
+</html>
